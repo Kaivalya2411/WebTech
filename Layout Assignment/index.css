@@ -1,0 +1,113 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+body hr{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Section 1 */
+#sec1{
+    background-image: linear-gradient(lightblue,lightgreen);
+    padding-top: 30px;
+    color: dimgray;
+    font-size: 2rem;
+    text-align: center;
+    /* background-color: rgb(204, 203, 203); */
+}
+#sec1 button{
+    border: none;
+    padding: 10px 40px;
+    background-color: dimgrey;
+    color: white;
+    margin-bottom: 60px;
+}
+
+#d1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+#d1 div img{
+    width: 300px;
+    height: 175px;
+}
+
+/* Section 2 */
+#sec2{
+    background-image: linear-gradient(white,skyblue);
+    color: dimgray;
+    text-align: center;
+}
+#sec2 h1{
+    font-size: 2.5rem;
+}
+
+#sec2 #d2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+#d2 div{
+    text-align: center;
+}
+#d2 div img{
+    width: 700px;
+    height: 400px;
+}
+
+/* Section 3 */
+#sec3{
+    background-color: white;
+    color: dimgray;
+    
+}
+#sec3 #d3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#d3 div h1{
+    font-size: xx-large;
+}
+#d3 div input{
+    padding: 10px 20px;
+}
+#d3 div button{
+    padding: 10px 30px;
+}
+
+/* Section 4 */
+#sec4{
+    background-image: linear-gradient(lightblue,lightgreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#d4 div #i1{
+    width: 300px;
+    height: 450px;
+}
+
+#d4 div img{
+    width: 300px;
+    height: 175px;
+}
+#sec4>#d4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40px;
+    
+}
+#sec4 #d4 #d42{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 4rem;
+    
+}
